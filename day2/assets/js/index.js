@@ -12,6 +12,7 @@ for (let i = 0; i < navElementArr.length; i++) {
     navElementArr[i].addEventListener("click", function () {
         navbar.classList.toggle("active");
         overlay.classList.toggle("active");
+        document.body.classList.toggle("no-scroll");
     })
 }
 
